@@ -102,6 +102,8 @@ cp <OSVI-WM>/scripts/eval_utils.py osvi-awda/scripts/eval_utils.py
 export OSVIWM_PATH=<path-to-osvi-wm>
 export PYTHONPATH=$PYTHONPATH:.:$OSVIWM_PATH
 ```
+6. Copy the transformation matrices (lines 49–70) from `<OSVI-WM>/dataset/agent_dataset.py` and insert them into `osvi-awda/hem/datasets/agent_dataset.py`, placing them immediately before the `AgentDemonstrations` class definition.
+
 Meta-World Evaluation
 ```
 CUDA_VISIBLE_DEVICES=0 python scripts/evaluate.py $OSVIWM_PATH/configs/metaworld_eval.yaml --test_task <task_name> --instances 100 --envs 40
