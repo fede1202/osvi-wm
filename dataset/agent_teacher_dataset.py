@@ -1,6 +1,7 @@
 from torch.utils.data import Dataset
 from dataset.agent_dataset import AgentDemonstrations
 from dataset.teacher_dataset import TeacherDemonstrations
+from dataset.ur5e_task_dataset import UR5eAgentTeacherDataset
 from utils.utils import get_files, load_traj
 import torch
 import os
@@ -44,7 +45,24 @@ class AgentTeacherDataset(Dataset):
     def __init__(self, agent_dir, teacher_dir, agent_context=0, traj_per_task=1, epoch_repeat=1, mode='train', 
                  split=[0.9, 0.1], metaworld=False,mosaic=False,bcz=False,franka=False,add_metaworld=None,train_tasks=[],
                  test_tasks=[],ost_all=False,novar=False,flip_sync=False,high_ent=False,epoch_repeat_train=None,
-                 agent_name=None,teacher_name=None,**params):
+                 agent_name=None,teacher_name=None, dataset_format=None, **params):
+        self._delegate = None
+        if dataset_format == "ur5e_task_folders":
+            self._delegate = UR5eAgentTeacherDataset(
+                agent_dir=agent_dir,
+                teacher_dir=teacher_dir,
+                agent_context=agent_context,
+                epoch_repeat=epoch_repeat,
+                mode=mode,
+                train_tasks=train_tasks,
+                test_tasks=test_tasks,
+                novar=novar,
+                flip_sync=flip_sync,
+                high_ent=high_ent,
+                epoch_repeat_train=epoch_repeat_train,
+                **params,
+            )
+            return  
         teacher_context = params.pop('T_context', 15)
         self._agent_context = agent_context = agent_context if agent_context is not None else teacher_context
         self.mosaic = mosaic
@@ -182,9 +200,13 @@ class AgentTeacherDataset(Dataset):
             self._epoch_repeat = epoch_repeat_train
 
     def __len__(self):
+        if getattr(self, "_delegate", None) is not None:
+            return len(self._delegate)
         return len(self._pairs) * self._epoch_repeat
     
     def __getitem__(self, index):
+        if getattr(self, "_delegate", None) is not None:
+            return self._delegate[index]
         if torch.is_tensor(index):
             index = index.tolist()
         assert 0 <= index < len(self), "invalid index!"

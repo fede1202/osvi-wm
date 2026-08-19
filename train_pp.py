@@ -1,6 +1,8 @@
 import os
 import random
 
+import argparse
+
 import cv2
 from einops import repeat
 
@@ -16,6 +18,7 @@ from accelerate import Accelerator, DistributedDataParallelKwargs
 
 from models.model import StateSpaceModel
 from dataset.agent_teacher_dataset import AgentTeacherDataset
+from dataset.ur5e_task_dataset import make_balanced_task_batch_sampler
 from losses.loss import sdtw_trajectory_loss
 
 
@@ -63,9 +66,41 @@ def main(args):
     train_dataset = AgentTeacherDataset(**data_config, mode='train')
     full_train_dataset = train_dataset
     val_dataset = AgentTeacherDataset(**data_config, mode='test')
-    train_loader = torch.utils.data.DataLoader(full_train_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers)
-    val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers)
+    if data_config.get("balanced_batches", False):
+        train_batch_sampler = make_balanced_task_batch_sampler(
+            full_train_dataset,
+            batch_size=batch_size,
+            samples_per_task_per_batch=data_config.get("samples_per_task_per_batch"),
+            drop_last=data_config.get("balanced_drop_last", True),
+            shuffle=data_config.get("balanced_shuffle", True),
+            seed=data_config.get("balanced_seed", 0),
+            epoch_strategy=data_config.get("balanced_epoch_strategy", "max"),
+        )
+        train_loader = torch.utils.data.DataLoader(
+            full_train_dataset,
+            batch_sampler=train_batch_sampler,
+            num_workers=num_workers,
+        )
+        print(
+            f"Using balanced task batches: {len(train_batch_sampler.tasks)} tasks, "
+            f"{train_batch_sampler.samples_per_task_per_batch} samples/task, "
+            f"batch_size={train_batch_sampler.batch_size}, "
+            f"batches/epoch={len(train_batch_sampler)}"
+        )
+    else:
+        train_loader = torch.utils.data.DataLoader(
+            full_train_dataset,
+            batch_size=batch_size,
+            shuffle=True,
+            num_workers=num_workers,
+        )
 
+    val_loader = torch.utils.data.DataLoader(
+        val_dataset,
+        batch_size=batch_size,
+        shuffle=True,
+        num_workers=num_workers,
+    )
     subset_size = int(len(val_dataset) * 0.5)
     subset_indices = np.random.choice(len(val_dataset), subset_size, replace=False)
 
@@ -289,12 +324,23 @@ def main(args):
             torch.save(state, "checkpoints/pp/model.pt")
             print(f"Model saved!")
             
+'''cd /home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm
+export PYTHONPATH=$PYTHONPATH:.
 
+python3 train_pp.py --config configs/ur5e_pick_place_data.yaml'''
 
 if __name__=="__main__":
-    fname = 'configs/pick_place_data.yaml'
-    with open(fname, 'r') as y_file:
+    parser = argparse.ArgumentParser(description="Train OSVI-WM from a YAML config file.")
+    parser.add_argument(
+        "--config",
+        default="configs/pick_place_data.yaml",
+        help="Path to the YAML config file. Defaults to the original OSVI pick_place config.",
+    )
+    args = parser.parse_args()
+
+    with open(args.config, 'r') as y_file:
         params = yaml.load(y_file, Loader=yaml.FullLoader)
         pp = pprint.PrettyPrinter(indent=4)
         # pp.pprint(params)
+    print(f"Using config: {args.config}")
     main(params)
