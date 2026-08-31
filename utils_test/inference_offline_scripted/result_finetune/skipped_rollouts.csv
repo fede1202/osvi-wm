@@ -1,6 +1,0 @@
-rollout_path,task_id,num_rollout_steps,reason
-/home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/ai_controller/saved_rollouts/script_controller/task_01/traj_013.pkl,task_01,0,num_steps=0 is below min_traj_len=2
-/home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/ai_controller/saved_rollouts/script_controller/task_02/traj_002.pkl,task_02,0,num_steps=0 is below min_traj_len=2
-/home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/ai_controller/saved_rollouts/script_controller/task_02/traj_021.pkl,task_02,0,num_steps=0 is below min_traj_len=2
-/home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/ai_controller/saved_rollouts/script_controller/task_12/traj_000.pkl,task_12,0,num_steps=0 is below min_traj_len=2
-/home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/ai_controller/saved_rollouts/script_controller/task_12/traj_019.pkl,task_12,0,num_steps=0 is below min_traj_len=2
