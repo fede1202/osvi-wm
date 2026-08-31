@@ -1,0 +1,116 @@
+data:
+  dataset_format: ur5e_task_folders
+
+  agent_dir: /home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/ai_controller/saved_rollouts/script_controller
+  teacher_dir: /home/asus-mivia/Desktop/dataset/pick_place/human_rgb_pick_place
+
+  min_traj_len: 2
+  filter_successful_agent_trajs: true
+  require_success_json: true
+  
+  train_tasks:
+    - task_01
+    - task_02
+    - task_03
+    - task_04
+    - task_06
+    - task_07
+    - task_08
+    - task_09
+    - task_11
+    - task_12
+    - task_13
+    - task_14
+
+  test_tasks:
+    - task_00
+    - task_05
+    - task_10
+    - task_15
+
+  balanced_batches: true
+  samples_per_task_per_batch: 1
+  balanced_epoch_strategy: max
+  balanced_drop_last: true
+  balanced_shuffle: true
+  balanced_seed: 0
+
+  T_context: 10
+  agent_context: 0
+  T_pair: 1
+
+  height: 240
+  width: 320
+  crop: [0, 0, 0, 0]
+
+  rand_crop: null
+  rand_translate: null
+  color_jitter: null
+  rand_flip: false
+  flip_sync: false
+  sample_sides: true
+  randomize_vid_frames: false
+  no_context_jitter: true
+
+  state_spec: []
+  extra_samp_bound: 0.0
+  traj_per_task: null
+  target_vid: true
+  waypoints: true
+
+  teacher_image_keys:
+    - camera_front_image
+
+  agent_image_keys:
+    - camera_front_image
+    - front_camera_image
+
+  eef_pos_key: eef_pos
+  eef_quat_key: eef_quat
+  gripper_qpos_key: gripper_qpos
+  action_gripper_index: -1
+  grasp_threshold: 0.5
+
+  decode_compressed_images: true
+  convert_bgr_to_rgb: true
+  agent_convert_bgr_to_rgb: true
+  teacher_convert_bgr_to_rgb: false
+
+  projection_matrix_path: configs/ur5e_zed_front_projection.yaml
+
+model:
+  latent_dim: 256
+  out_dim: 32
+  waypoints: 5
+  sub_waypoints: true
+  ent_head: false
+  num_ent_head: 2
+
+training:
+  num_epochs: 10
+  downstream_num_epochs: 10
+  batch_size: 12
+  num_workers: 0
+  valid_freq: 1
+  mixup: false
+  max_lr: 0.0002
+  final_div_factor: 100
+  ema:
+    - 0.998
+    - 1.0
+  use_accelerate: false
+  log_wandb: false
+
+logging:
+  output_dir: runs
+  run_name: ur5e_pick_place_balanced
+  append_timestamp: true
+  resume_run_dir: true
+  save_last: true
+  save_best: true
+  monitor_metric: val_loss
+  monitor_mode: min
+  log_every_steps: 20
+  small_val_freq_steps: 100
+  qualitative:
+    enabled: true

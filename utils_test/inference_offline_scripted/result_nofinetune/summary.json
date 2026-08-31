@@ -1,0 +1,15 @@
+{
+  "num_rollouts": 700,
+  "num_rollouts_evaluated": 700,
+  "num_rollouts_skipped": 0,
+  "num_inferences": 700,
+  "mean_nearest_l2_m": 0.09769648895200399,
+  "mean_sampled_l2_m": 0.1788817661733016,
+  "sampled_gripper_accuracy": 0.8722857142857143,
+  "records_jsonl": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/records.jsonl",
+  "summary_csv": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/summary.csv",
+  "skipped_rollouts_jsonl": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/skipped_rollouts.jsonl",
+  "skipped_rollouts_csv": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/skipped_rollouts.csv",
+  "model_config_path": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/config_inference_offline.yaml",
+  "config_manifest": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/test_config_manifest.json"
+}

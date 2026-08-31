@@ -1,0 +1,125 @@
+projection_matrix:
+  - [-0.9230464891, -0.0008881659, -0.0263076478, 0.0258804482]
+  - [0.0194367916, -0.3958679356, -0.6225008400, 1.0325620478]
+  - [0.0207015215, 0.3320811059, -0.7826214457, 0.4595237268]
+  - [0.0, 0.0, 0.0, 1.0]
+
+camera:
+  name: zed_front
+  ros_frame_id: zed_front_left_camera_frame_optical
+  image_width: 672
+  image_height: 376
+  intrinsics:
+    fx: 363.8398742675781
+    fy: 363.8398742675781
+    cx: 337.5829162597656
+    cy: 178.53465270996094
+
+image_norm_to_camera:
+  - [0.9234831687, 0.0, -0.0043505849, 0.0]
+  - [0.0, -0.5167108206, 0.0260151456, 0.0]
+  - [0.0, 0.0, 1.0, 0.0]
+  - [0.0, 0.0, 0.0, 1.0]
+
+T_base_camera:
+  - [-0.9995271385, 0.0017188839, -0.0307008924, 0.0258804482]
+  - [0.0210472614, 0.7661305314, -0.6423402694, 1.0325620478]
+  - [0.0224167827, -0.6426827011, -0.7658044356, 0.4595237268]
+  - [0.0, 0.0, 0.0, 1.0]
+
+metadata:
+  output_frame: base_link
+  camera_info_topic: /zed_front/zed_node/rgb/color/rect/camera_info
+  depth_units: meters
+  formula: projection_matrix = T_base_camera @ image_norm_to_camera
+  assumptions:
+    crop: [0, 0, 0, 0]
+    rand_crop: [0, 0]
+    rand_translate: [0, 0]
+    rand_flip: false
+
+# la projection matrix is computed as follows:
+# projection_matrix = T_base_camera @ image_norm_to_camera
+# [x_norm*z, y_norm*z, z, 1] 
+# in [x_base, y_base, z_base, 1]]
+# intrinsics camera (ros2 topic echo /zed_front/zed_node/rgb/color/rect/camera_info --once):
+# W  = 672
+# H  = 376
+# fx = 363.8398742675781
+# fy = 363.8398742675781
+# cx = 337.5829162597656
+# cy = 178.53465270996094
+# is used to compute the image_norm_to_camera matrix, which is then multiplied by T_base_camera to get the projection_matrix.
+# a11 = W / (2 * fx)
+#    = 672 / (2 * 363.8398742675781)
+#    = 0.9234831687
+#
+# a13 = (W/2 - cx) / fx
+#    = (336 - 337.5829162597656) / 363.8398742675781
+#    = -0.0043505849
+
+# a22 = -H / (2 * fy)
+#    = -376 / (2 * 363.8398742675781)
+#    = -0.5167108206
+
+# a23 = (H/2 - cy) / fy
+#    = (188 - 178.53465270996094) / 363.8398742675781
+#    = 0.0260151456
+#
+# obtained:
+# image_norm_to_camera:
+#  - [0.9234831687, 0.0, -0.0043505849, 0.0]
+#  - [0.0, -0.5167108206, 0.0260151456, 0.0]
+#  - [0.0, 0.0, 1.0, 0.0]
+#  - [0.0, 0.0, 0.0, 1.0]
+#
+# camera-->aruco from /home/asus-mivia/Desktop/UR-Control/UR5e-2f-85/zed_camera/zed_camera_calibration/estimated_camera_positions.yaml: 
+# T_aruco_camera:
+#  - [-0.9995271385, 0.0017188839, -0.0307008924, 0.0258804482]
+#  - [0.0210472614, 0.7661305314, -0.6423402694, 0.4205620478]
+#  - [0.0224167827, -0.6426827011, -0.7658044356, 0.5795237268]
+#  - [0.0, 0.0, 0.0, 1.0]
+#
+# aruco-->table_0:
+# ARUCO_TO_TABLE0_ROTATION = np.array([
+#    [-1.0, 0.0, 0.0],
+#    [0.0, -1.0, 0.0],
+#    [0.0, 0.0, 1.0],
+#])
+# T_table0_aruco (from ARUCO_TO_TABLE0_ROTATION in vision.py):
+#  - [-1.0, 0.0, 0.0, 0.0]
+#  - [0.0, -1.0, 0.0, 0.0]
+#  - [0.0, 0.0, 1.0, 0.0]
+#  - [0.0, 0.0, 0.0, 1.0]
+#
+# T_base_table0  (ros2 run tf2_ros tf2_echo base_link table_0):
+#  - [-1.0, 0.0, 0.0, 0.0]
+#  - [0.0, -1.0, 0.0, 0.612]
+#  - [0.0, 0.0, 1.0, -0.120]
+#  - [0.0, 0.0, 0.0, 1.0]
+#
+# Computing T_base_camera: 
+# T_base_camera =    T_base_table0 @ T_table0_aruco @ T_aruco_camera
+#
+# T_base_camera:
+#  - [-0.9995271385, 0.0017188839, -0.0307008924, 0.0258804482]
+#  - [0.0210472614, 0.7661305314, -0.6423402694, 1.0325620478]
+#  - [0.0224167827, -0.6426827011, -0.7658044356, 0.4595237268]
+#  - [0.0, 0.0, 0.0, 1.0]
+#
+# projection_matrix = T_base_camera @ image_norm_to_camera:
+# projection_matrix:
+#  - [-0.9230464891, -0.0008881659, -0.0263076478, 0.0258804482]
+#  - [0.0194367916, -0.3958679356, -0.6225008400, 1.0325620478]
+#  - [0.0207015215, 0.3320811059, -0.7826214457, 0.4595237268]
+#  - [0.0, 0.0, 0.0, 1.0]
+#
+# This matrix is needed because OSVI predicts waypoints in image-normalized
+# coordinates rather than directly in the robot frame. The predicted x/y values
+# are normalized in [-1, 1], so they must first be mapped back to image geometry,
+# combined with the predicted depth, and back-projected through the ZED camera
+# intrinsics. This converts [x_norm*z, y_norm*z, z, 1] into a 3D point in the
+# camera optical frame, accounting for the real optical center (cx, cy) and focal
+# lengths (fx, fy). The resulting camera-frame point is then transformed into
+# base_link by following the same calibration chain used by the UR5 pipeline:
+# camera -> ArUco -> table_0 -> base_link.

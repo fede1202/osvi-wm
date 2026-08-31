@@ -1,0 +1,2 @@
+pkl,camera_key,traj_len,frames_written,missing_frames,has_json,trajectory_complete,object_reached,object_picked,object_placed,video,contact_sheet,frame_dir
+/home/asus-mivia/Desktop/dataset/pick_place/real_eye_in_hand_ur5e_pick_place/task_01/traj000.pkl,camera_front_image,17,17,,0,,,,,review_media/front/task_01_traj000_camera_front_image.mp4,review_media/front/task_01_traj000_camera_front_image_sheet.png,

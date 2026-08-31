@@ -107,12 +107,9 @@ def randomize_video(frames, color_jitter=None, rand_gray=None, rand_crop=None, r
         trans = np.random.uniform(-rand_trans, rand_trans)
         M = np.array([[np.cos(rot), -np.sin(rot), trans[0]], [np.sin(rot), np.cos(rot), trans[1]]])
         frames = [cv2.warpAffine(fr, M, (fr.shape[1], fr.shape[0])) for fr in frames]
-    if rand_flip:
-        if force_flip is not None:
-            vert,horz = force_flip
-        else:
-            vert = -1 if random.random() > 0.5 else 1
-            horz = -1 if random.random() > 0.5 else 1
+    if rand_flip and force_flip is not None:
+        _, horz = force_flip
+        vert = 1
         frames = [x[::vert,::horz] for x in frames]
         flip = np.array([[horz,0,0],[0,vert,0],[0,0,1]])
     else:

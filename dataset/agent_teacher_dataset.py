@@ -215,7 +215,7 @@ class AgentTeacherDataset(Dataset):
         label = index // 10000
         # print(a_i, t_i)
         if self.flip_sync:
-            vert = -1 if random.random() > 0.5 else 1
+            vert = 1
             horz = -1 if random.random() > 0.5 else 1
             force_flip = [vert,horz]
             agent_pairs, agent_context = self._agent_dataset.__getitem__(a_i,force_flip)

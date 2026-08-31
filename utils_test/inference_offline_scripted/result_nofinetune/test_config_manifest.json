@@ -1,0 +1,17 @@
+{
+  "runtime_config": {
+    "source": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/config_inference_offline.yaml",
+    "copy": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/config_inference_offline.yaml"
+  },
+  "referenced_configs": {
+    "training_config_path": {
+      "source": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/runs/ur5e_pick_place_balanced_20260820_165229/config.yaml",
+      "copy": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/configs/config.yaml"
+    },
+    "projection_matrix_path": {
+      "source": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/configs/ur5e_zed_front_projection.yaml",
+      "copy": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result_nofinetune/configs/ur5e_zed_front_projection.yaml"
+    }
+  },
+  "checkpoint_path": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/runs/ur5e_pick_place_balanced_20260820_165229/checkpoints/best.pt"
+}

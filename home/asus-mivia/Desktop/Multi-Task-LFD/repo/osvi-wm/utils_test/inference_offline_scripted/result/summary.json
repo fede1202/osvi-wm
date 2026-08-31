@@ -1,0 +1,9 @@
+{
+  "num_rollouts": 1,
+  "num_inferences": 5,
+  "mean_nearest_l2_m": 0.03607396374831588,
+  "mean_sampled_l2_m": 0.1001507648216586,
+  "sampled_gripper_accuracy": 0.7200000000000001,
+  "records_jsonl": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result/records.jsonl",
+  "summary_csv": "/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/home/asus-mivia/Desktop/Multi-Task-LFD/repo/osvi-wm/utils_test/inference_offline_scripted/result/summary.csv"
+}

@@ -1,0 +1,3349 @@
+{
+    "target_gripper": 124,
+    "trajectories": [
+        {
+            "task": "task_00",
+            "trajectory": "traj_000.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_001.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_002.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_004.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_005.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_006.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_007.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_008.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_009.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_010.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_011.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_012.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_013.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_015.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_017.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_018.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_020.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_021.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_023.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_024.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_025.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_026.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_027.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_028.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_029.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_030.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_031.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_032.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_035.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_037.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_038.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_039.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_040.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_041.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_042.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_043.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_044.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_045.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_046.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_047.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_048.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_049.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_050.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_051.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_052.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_055.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_056.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_059.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_060.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_063.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_064.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_065.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_066.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_067.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_068.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_069.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_071.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_072.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_073.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_075.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_076.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_078.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_080.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_081.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_083.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_084.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_087.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_088.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_089.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_090.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_091.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_092.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_095.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_096.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_098.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_00",
+            "trajectory": "traj_099.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_000.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_001.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_003.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_004.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_005.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_006.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_007.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_009.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_010.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_011.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_012.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_013.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_014.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_016.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_017.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_018.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_020.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_021.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_022.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_023.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_024.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_025.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_026.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_027.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_028.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_029.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_030.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_032.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_033.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_034.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_035.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_036.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_037.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_01",
+            "trajectory": "traj_040.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_000.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_001.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_003.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_006.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_007.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_008.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_009.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_010.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_011.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_012.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_013.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_014.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_015.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_016.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_017.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_018.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_019.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_020.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_021.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_023.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_025.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_026.json",
+            "last_step": 9,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_028.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_029.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_035.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_036.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_02",
+            "trajectory": "traj_039.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_000.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_001.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_002.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_004.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_005.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_006.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_007.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_008.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_009.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_010.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_011.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_013.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_014.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_015.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_017.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_018.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_019.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_024.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_025.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_027.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_028.json",
+            "last_step": 22,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_029.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_031.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_032.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_034.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_03",
+            "trajectory": "traj_035.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_000.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_001.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_002.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_003.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_005.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_006.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_007.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_008.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_009.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_010.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_011.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_012.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_013.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_014.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_015.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_016.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_017.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_018.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_019.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_020.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_021.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_022.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_023.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_024.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_026.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_027.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_028.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_029.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_030.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_031.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_032.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_034.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_036.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_037.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_038.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_04",
+            "trajectory": "traj_039.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_001.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_002.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_004.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_006.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_007.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_008.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_009.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_010.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_011.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_012.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_013.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_014.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_015.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_016.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_017.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_018.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_020.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_021.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_022.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_023.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_024.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_025.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_026.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_027.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_030.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_031.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_032.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_035.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_036.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_037.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_038.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_05",
+            "trajectory": "traj_039.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_000.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_002.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_003.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_004.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_008.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_009.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_010.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_013.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_014.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_015.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_016.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_018.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_023.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_024.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_027.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_028.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_031.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_032.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_034.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_035.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_036.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_037.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_038.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_06",
+            "trajectory": "traj_039.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_000.json",
+            "last_step": 21,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_001.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_003.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_004.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_005.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_009.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_010.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_011.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_012.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_013.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_014.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_015.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_016.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_019.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_020.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_021.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_023.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_025.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_026.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_027.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_028.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_029.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_030.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_032.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_034.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_035.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_036.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_037.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_038.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_07",
+            "trajectory": "traj_039.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_000.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_001.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_002.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_003.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_004.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_006.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_007.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_008.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_009.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_010.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_011.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_012.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_013.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_014.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_015.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_016.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_018.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_019.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_020.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_021.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_023.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_024.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_026.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_028.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_030.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_031.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_032.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_034.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_035.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_036.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_037.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_038.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_08",
+            "trajectory": "traj_039.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_001.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_004.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_007.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_008.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_009.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_010.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_011.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_012.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_013.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_016.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_017.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_020.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_021.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_023.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_024.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_025.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_026.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_028.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_030.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_031.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_033.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_034.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_035.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_037.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_038.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_09",
+            "trajectory": "traj_039.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_000.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_001.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_002.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_003.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_004.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_006.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_007.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_008.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_009.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_010.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_011.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_012.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_013.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_014.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_015.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_016.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_017.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_018.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_019.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_020.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_021.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_022.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_023.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_024.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_025.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_026.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_027.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_028.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_029.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_030.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_031.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_033.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_034.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_035.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_036.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_037.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_038.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_10",
+            "trajectory": "traj_039.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_000.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_001.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_002.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_004.json",
+            "last_step": 22,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_005.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_006.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_008.json",
+            "last_step": 23,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_009.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_010.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_012.json",
+            "last_step": 22,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_013.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_014.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_016.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_017.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_019.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_020.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_021.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_022.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_023.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_024.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_025.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_026.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_027.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_029.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_031.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_032.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_034.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_035.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_036.json",
+            "last_step": 22,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_037.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_038.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_11",
+            "trajectory": "traj_039.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_000.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_001.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_002.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_003.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_004.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_005.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_006.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_007.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_008.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_010.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_011.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_013.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_014.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_015.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_016.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_017.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_018.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_019.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_022.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_024.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_025.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_026.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_028.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_029.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_031.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_035.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_037.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_038.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_12",
+            "trajectory": "traj_039.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_000.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_001.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_002.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_003.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_005.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_006.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_007.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_008.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_009.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_010.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_011.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_012.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_013.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_014.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_015.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_016.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_017.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_018.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_019.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_021.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_022.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_023.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_024.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_025.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_026.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_030.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_031.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_032.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_033.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_038.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_13",
+            "trajectory": "traj_039.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_000.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_001.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_002.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_003.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_004.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_005.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_006.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_007.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_009.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_010.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_011.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_012.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_013.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_019.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_022.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_024.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_025.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_026.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_027.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_028.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_029.json",
+            "last_step": 16,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_030.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_031.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_033.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_034.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_035.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_036.json",
+            "last_step": 19,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_038.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_14",
+            "trajectory": "traj_039.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_000.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_001.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_002.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_003.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_004.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_005.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_006.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_007.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_008.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_009.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_010.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_012.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_013.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_014.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_015.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_016.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_017.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_018.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_019.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_020.json",
+            "last_step": 20,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_021.json",
+            "last_step": 15,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_022.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_023.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_024.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_025.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_026.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_027.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_028.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_029.json",
+            "last_step": 12,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_030.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_031.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_032.json",
+            "last_step": 18,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_033.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_034.json",
+            "last_step": 10,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_035.json",
+            "last_step": 13,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_036.json",
+            "last_step": 17,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_037.json",
+            "last_step": 14,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_038.json",
+            "last_step": 11,
+            "gripper": 124
+        },
+        {
+            "task": "task_15",
+            "trajectory": "traj_039.json",
+            "last_step": 11,
+            "gripper": 124
+        }
+    ],
+    "count_per_task": {
+        "task_00": 77,
+        "task_01": 34,
+        "task_02": 28,
+        "task_03": 26,
+        "task_04": 37,
+        "task_05": 34,
+        "task_06": 25,
+        "task_07": 31,
+        "task_08": 35,
+        "task_09": 27,
+        "task_10": 39,
+        "task_11": 33,
+        "task_12": 29,
+        "task_13": 31,
+        "task_14": 29,
+        "task_15": 39
+    },
+    "total_matching_trajectories": 554,
+    "total_analyzed_trajectories": 700
+}
